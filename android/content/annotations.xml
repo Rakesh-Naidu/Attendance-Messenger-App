@@ -1,0 +1,7 @@
+<root>
+    <item name='android.content.Context android.content.res.Resources getResources()'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true" />
+        </annotation>
+    </item>
+</root>
