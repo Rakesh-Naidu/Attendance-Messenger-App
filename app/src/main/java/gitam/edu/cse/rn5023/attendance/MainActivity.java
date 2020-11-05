@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
         date=sdf.format(new Date());
         s1 = e1.getText().toString();
         s2 = e2.getText().toString();
-        s.append("Date :- ").append(date).append("\n");
-        s.append(s1).append("  ");
+        s.append("Date :- ").append(date).append("\nSection :- ");
+        s.append(s1).append(" \nStrength :- ");
         s.append(s2).append(" Students \n");
         if(flag==2)
             Toast.makeText(this,"Please Select One Option",Toast.LENGTH_SHORT).show();

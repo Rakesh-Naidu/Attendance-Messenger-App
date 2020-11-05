@@ -6,9 +6,14 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <TextView
-        android:text="Tick Absent Numbers"
-        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="50dp"/>
+        android:layout_height="60dp"
+        android:background="@color/Orange"
+        android:gravity="center"
+        android:text="Tick Absent Numbers"
+        android:textColor="@color/Black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
 </LinearLayout>

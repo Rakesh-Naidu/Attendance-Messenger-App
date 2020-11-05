@@ -6,14 +6,21 @@
     android:orientation="vertical"
     android:layout_gravity="center"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/lav">
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:background="@color/Black"
+        android:fontFamily="@font/alike"
         android:gravity="center"
         android:text="Enter Section Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/Orange"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -24,38 +31,50 @@
     <EditText
         android:id="@+id/edittext"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:background="@color/lightYellow"
         android:inputType="textCapWords"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.201" />
-
+        app:layout_constraintVertical_bias="0.2" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:background="@color/Black"
+        android:fontFamily="@font/alike"
         android:gravity="center"
         android:text="Enter Number of Students"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/Orange"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.272" />
+        app:layout_constraintVertical_bias="0.282" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="73dp"
+        android:layout_height="75dp"
+        android:background="@color/Orange"
+        android:fontFamily="@font/alike"
         android:gravity="center"
         android:text="Enter The Format"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/Black"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.448" />
+        app:layout_constraintVertical_bias="0.459" />
 
     <RadioGroup
         android:id="@+id/radiogrp"
@@ -72,24 +91,41 @@
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:background="@color/lightYellow"
+            android:fontFamily="@font/alike"
             android:onClick="change"
-            android:text="Absent Numbers" />
+            android:text="Absent Numbers"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
         <RadioButton
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:textSize="20dp"
+            android:background="@color/lightYellow"
+            android:textStyle="bold"
+            android:fontFamily="@font/alike"
             android:onClick="rechange"
             android:text="Present Numbers"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="375dp" />
     </RadioGroup>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="248dp"
+        android:layout_width="250dp"
         android:layout_height="59dp"
+        android:background="@color/Black"
+        android:fontFamily="@font/alike"
         android:onClick="next"
         android:text="Submit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/Orange"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -100,16 +136,15 @@
     <EditText
         android:id="@+id/edittext1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:background="@color/lightYellow"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.364" />
-
-
+        app:layout_constraintVertical_bias="0.366" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
